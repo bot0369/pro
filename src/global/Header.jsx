@@ -21,7 +21,8 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 h-10 z-50 p-6 ">
       <nav
         aria-label="Global"
-        className="flex items-center justify-between text-sm italic h-28 p-6 lg:px-8 border-1 bg-black/30"
+        className="flex items-center justify-between text-sm italic h-28 p-6 lg:px-8 bg-black/40"
+        // style={{ clipPath: 'polygon( 2% 0, 100% 0, 98% 100%, 0% 100%)' }}
       >
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
